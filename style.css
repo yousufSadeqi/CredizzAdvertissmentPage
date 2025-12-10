@@ -39,26 +39,29 @@ nav a{
 
 main {
     flex: 1;
+	display:flex;
+	flex-direction:column;
 }
 .text-main{
 	width:24%;
 }
 
 section{
-	background-color:#0c3431;
+	background-color:#073835;
 	color:white;
 	display:flex;
 	flex-direction:row;
-	padding:6rem;
-	padding-top:4rem;
-	padding-bottom:3rem;
+	padding:8rem;
+	padding-top:5rem;
 	flex-wrap:wrap;
+	padding-bottom:5rem;
 }
 section .toMake{
 	color:green;
 }
 section p {
 	font-size:13px;
+	margin-top:20px;
 }
 section ul{
 	gap: 4rem;
@@ -76,6 +79,9 @@ section a{
 	border:2px solid gray;
 	display:inline-block;
 }
+section img{
+	margin-left:8%;
+}
 a:visited{
 	color:white;
 	text-decoration:none;
@@ -83,9 +89,38 @@ a:visited{
 .moreInfos{
 	background-color:green;
 	color:white;
-	width:130px;
-	border:1px solid white;
+	width:150px;
+	border:none;
+	text-align:center;
 }
+.first-child-para {
+    padding: 0.1rem 0;
+    background-color: #f2f2f2;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+	justify-content:center;
+	height:80px;
+}
+
+.first-child-para p {
+    margin-top: 0;
+    display: inline-block; 
+	display:inline;
+	white-space: nowrap;
+	width:auto;
+	font-size:15px;
+}
+
+.first-child-para a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+	width:auto;
+	border:none;
+}
+
+
 
 
 
