@@ -1,0 +1,93 @@
+*{
+	margin:0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+	padding:1rem;
+	padding-right:3rem;
+    align-items: center;
+	background: #0c3431;    
+	color:white;
+
+}
+nav h2{
+	padding-left:3%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    flex: 1;          
+    display: flex;
+    gap: 7%;
+    justify-content: flex-end;
+}
+nav a{
+	text-decoration:none;
+}
+
+main {
+    flex: 1;
+}
+.text-main{
+	width:24%;
+}
+
+section{
+	background-color:#0c3431;
+	color:white;
+	display:flex;
+	flex-direction:row;
+	padding:6rem;
+	padding-top:4rem;
+	padding-bottom:3rem;
+	flex-wrap:wrap;
+}
+section .toMake{
+	color:green;
+}
+section p {
+	font-size:13px;
+}
+section ul{
+	gap: 4rem;
+	margin-top:5rem;
+	flex:1;
+	justify-content:space-around;
+}
+section a{
+	margin:0.3%;
+	text-decoration:none;
+	margin-top:4%;
+	padding:0.5rem;
+	width:100px;
+	border-radius:10px ;
+	border:2px solid gray;
+	display:inline-block;
+}
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+.moreInfos{
+	background-color:green;
+	color:white;
+	width:130px;
+	border:1px solid white;
+}
+
+
+
+
+
